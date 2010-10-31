@@ -1,0 +1,5 @@
+C:\Users\x61\Documents\Visual Studio 2010\Projects\GestionSostenedores\GestionSostenedores\bin\GestionSostenedores.dll
+C:\Users\x61\Documents\Visual Studio 2010\Projects\GestionSostenedores\GestionSostenedores\bin\GestionSostenedores.pdb
+C:\Users\x61\Documents\Visual Studio 2010\Projects\GestionSostenedores\GestionSostenedores\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\x61\Documents\Visual Studio 2010\Projects\GestionSostenedores\GestionSostenedores\obj\Debug\GestionSostenedores.dll
+C:\Users\x61\Documents\Visual Studio 2010\Projects\GestionSostenedores\GestionSostenedores\obj\Debug\GestionSostenedores.pdb

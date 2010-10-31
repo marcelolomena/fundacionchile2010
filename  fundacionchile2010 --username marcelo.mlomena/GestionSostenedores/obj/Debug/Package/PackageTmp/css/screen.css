@@ -1,0 +1,228 @@
+/*
+1999-2010 Diego Diaz Plaza
+CSS para proyecto {Gestion Escolar - Fundacion Chile}               
+Media: SCREEN
+Autor: www.diegodiaz.org       					
+Fecha de creacion 1/04/2010                    
+Fecha de ultima modificacion: dd/mm/aaaa
+Version: 1.0 
+*/
+
+body{background:url(../images/html/fondo_general.jpg) repeat-y 50%;background-attachment:fixed;margin: 0px; padding: 0px; color: #666; font: 12px "Arial Narrow", Arial, Helvetica, sans-serif;}
+
+a:link{color: #515151; text-decoration:underline;}
+a:visited{color: #515151; text-decoration:underline;}
+a:hover{color: #515151; text-decoration:none;}
+a:active{color: #515151; text-decoration:none;}
+
+:focus{outline: none;}
+
+form, label{margin: 0px; padding: 0px;}
+label{cursor: pointer;}
+
+.textarea{width: 680px; height: 134px; overflow: auto; border: 1px solid #CCC;}
+
+.center{ text-align: center;}
+
+h1{margin: 0px; padding: 0px 0px 8px 10px; font-size: 18px; font-weight:normal; border-bottom: 1px solid #EBEBEB;}
+h1 strong, h1 b{color: #009BA2; font-weight: bold; font-size: 20px;}
+h2{margin: 0px; padding: 0px 0px 9px 0px; color: #009BA2; font-size: 17px;}
+h3{margin: 0px; padding: 0px 0px 8px 10px; font-size: 18px; font-weight:normal; border-bottom: 1px solid #EBEBEB;}
+h3 strong, h3 b{color: #009BA2; font-weight: bold; font-size: 12px;}
+
+/*HEADER*/
+#header{background: url(../images/html/fondo_header.jpg) no-repeat 0px 0px; width: 810px; height: 94px; padding: 26px 0px 0px 0px; margin: 0px auto;}
+#header img{border: none; margin: 0px 0px 0px 2px; padding: 0px;}
+
+
+/*MENU PRINCIPAL*/
+#menu_principal{background: url(../images/html/fondo_menu_principal.jpg) no-repeat 0px 0px; font: bold 13px "Arial Narrow", Arial, Helvetica, sans-serif; width: 810px; height: 33px; margin: 0px auto 20px auto; clear: both;}
+#menu_principal ul{list-style: none; margin: 0px; padding: 0px; height: 33px;}
+#menu_principal ul li{background: url(../images/html/linea_menu_header.gif) no-repeat right center; margin: 0px; padding: 0px; height: 33px; float: left; text-align: center;}
+#menu_principal ul li a:link, #menu_principal ul li a:visited{text-decoration: none; color: #FFF; display: block; float: left; padding: 8px 10px 0px 10px; height: 25px;}
+#menu_principal ul li a:hover, #menu_principal ul li a:active{text-decoration: none; color: #F5F5F5;}
+
+
+/*MENU DESPLEGABLE*/
+.menu{background: #C8DAEA; border: 1px solid #21649F; left: 0px; padding: 0px; position: absolute; top: 0px; visibility: hidden; z-index: 101; font: 11px "Arial Narrow", Arial, Helvetica, sans-serif; color: #000; text-align: left;}
+.menu p{margin: 0px 1px; padding: 10px 5px 8px 13px; border-bottom: 1px solid #2C6CA4; text-transform:uppercase;}
+.menu .noborde{border: none;}
+.menu a:link, .menu a:visited{color: #333; text-decoration: none;}
+.menu a:hover, .menu a:active{color: #000; text-decoration: none;}
+
+
+/*PORTADA*/
+#portada{width: 810px; margin: 0px auto; clear: both; font: 12px/130% "Arial Narrow", Arial, Helvetica, sans-serif; border-top: 1px solid #EBEBEB; padding: 15px 0px 0px 0px; text-align:justify;}
+#portada p{padding: 0px 0px 12px 25px; color: #666;margin-left:1px;margin-right:10px;}
+/*
+#portada img{float: right; border: 1px solid #EBEBEB; padding: 6px; margin-left: 25px;}
+*/
+#portada img{float: right;padding: 6px; margin-left: 25px;}
+#portada .enlaces_home img { text-align:center; float:left; }
+#portada h4 { padding:0px 0px 10px 25px; }
+
+/*CICLO*/
+#ciclo{width: 810px; margin: 0px auto; clear: both; font: 12px/130% "Arial Narrow", Arial, Helvetica, sans-serif; border-top: 1px solid #EBEBEB; padding: 15px 0px 0px 0px; text-align:justify;}
+#ciclo p{padding: 0px 0px 12px 25px; color: #666;margin-left:1px;margin-right:10px;}
+/*
+#portada img{float: right; border: 1px solid #EBEBEB; padding: 6px; margin-left: 25px;}
+*/
+#ciclo img{float: right;padding: 6px; margin-left: 25px;}
+#ciclo .enlaces_home img { text-align:center; float:left; }
+#ciclo h4 { padding:0px 0px 10px 25px; }
+#ciclo span{text-align:center;}
+
+
+/*FORMULARIO DE REGISTRO*/
+#registro{width: 810px; background:url(../images/html/fondo_internas.jpg) bottom right no-repeat; margin: 0px auto; clear: both; font: 12px/130% "Arial Narrow", Arial, Helvetica, sans-serif; padding: 0px 0px 27px 0px; overflow: hidden; color: #515151;}
+
+#registro #col_01{float: left; width: 345px; font-size: 13px; padding: 20px 0px 0px 32px;}
+#registro #col_01 p{margin: 0px; padding: 0px 0px 8px 0px;}
+#registro #col_01 label{float: left; width: 90px; text-align: right; padding: 3px 8px 0px 0px}
+#registro #col_01 span{font-size: 10px; display: block; padding: 0px 0px 0px 98px;}
+#registro #col_01 strong, #registro #col_01 b{font-size: 11px; font-weight: bold;}
+#registro #col_01 a:link, #registro #col_01 a:visited{text-decoration: none;}
+#registro #col_01 a:hover, #registro #col_01 a:active{text-decoration: underline;}
+#registro #col_01 input{width: 164px; height: 25px; border: 1px solid #E2E2E2; padding: 2px 0px 0px 2px; margin: 0px; font-size: 13px; color: #515151;}
+
+#registro #col_01 .fondo{background: url(../images/html/fondo_registro_01.jpg) no-repeat 0px 0px; padding: 10px 0px 0px 10px; height: 120px;}
+
+#registro #col_01 #boton_ingresar{margin: 0px; padding: 3px 0px 0px 0px; text-align: right;}
+#registro #col_01 #boton_ingresar input{background: url(../images/html/bot_100x44.jpg) no-repeat 0px 0px; width: 104px; height: 44px; padding: 0px; margin: 0px; color: #515151; font: bold 12px "Arial Narrow", Arial, Helvetica, sans-serif; border: none; cursor: pointer;}
+#boton_enviar input{ text-align:center; background: url(../images/html/bot_enviar.jpg) no-repeat 0px 0px; width: 103px; height: 44px; padding: 0px; margin: 0px; color: #515151; font: bold 12px "Arial Narrow", Arial, Helvetica, sans-serif; border: none; cursor: pointer;}
+
+#registro #col_02{float: left; width: 412px; font-size: 12px; padding: 20px 0px 0px 32px; color: #515151;}
+#registro #col_02 .fondo{background: url(../images/html/fondo_registro_02.jpg) no-repeat 0px 0px; height: 210px; padding: 20px 0px 0px 10px;}
+#registro #col_02 p{margin: 0px; padding: 0px 0px 18px 0px;}
+#registro #col_02 label{width: 70px; display: block; float: left;}
+#registro #col_02 select{width: 280px; margin: 0px; padding: 0px; font-size: 13px; color: #515151;}
+#registro #col_02 #boton_inscribirse{margin: 0px; padding: 3px 0px 0px 0px; text-align: right;}
+#registro #col_02 #boton_inscribirse input{background: url(../images/html/bot_180x44.jpg) no-repeat 0px 0px; width: 178px; height: 44px; padding: 0px; margin: 0px; color: #515151; font: bold 12px "Arial Narrow", Arial, Helvetica, sans-serif; border: none; cursor: pointer;}
+
+
+/*CONTENIDOS GENERICOS*/
+#internas{width: 790px; margin: 0px auto; clear: both; font: 12px/130% "Arial Narrow", Arial, Helvetica, sans-serif; padding: 0px 0px 27px 20px; color: #515151;}
+#internas img{float: right; border: 1px solid #EBEBEB; padding: 6px; margin-left: 25px;}
+#internas .enlaces_home img { text-align:center; float:left; }
+#internas h4 { padding:0px 0px 10px 25px; }
+
+#modelo{width: 790px; margin: 0px auto; clear: both; font: 12px/130% "Arial Narrow", Arial, Helvetica, sans-serif; padding: 0px 0px 27px 20px; color: #515151;}
+
+#internas_dimensionamiento{width: 900px; margin: 0px auto; clear: both; font: 12px/130% "Arial Narrow", Arial, Helvetica, sans-serif; padding: 0px 0px 27px 20px; color: #515151;}
+#internas_dimensionamiento img{float: right; border: 1px solid #EBEBEB; padding: 6px; margin-left: 25px;}
+#internas_dimensionamiento img{float: right; border: 1px solid #EBEBEB; padding: 6px; margin-left: 25px;}
+#internas_dimensionamiento .enlaces_home img { text-align:center; float:left; }
+#internas_dimensionamiento h4 { padding:0px 0px 10px 25px; }
+
+/*FONDO FORMULARIOS*/
+.fondo_formularios{background: url(../images/html/fondo_form_top.gif) no-repeat 0px 0px #F7F7F7; font-size: 13px; color: #000; line-height: 120%; width: 724px; padding: 12px 50px 0px 15px; margin-top: 20px;}
+.fondo_formularios p{margin: 0px; padding: 0px 0px 10px 0px;}
+.bottom_formularios{background:  url(../images/html/fondo_form_bottom.gif) no-repeat 0px 0px; height: 15px; font: 1px Arial, Helvetica, sans-serif;width: 789px; margin: 0px 0px 12px 0px;}
+.fondo_formularios .txt_destacado{font-size: 16px; font-weight: bold;}
+
+/*Formulario de contacto*/
+#contacto{margin:0px; padding:25px 10px 10px 10px;}
+#contacto table{border:none; width:100%;}
+#contacto table th{font:bold 9px Tahoma, Arial, Helvetica, sans-serif; text-align:left; padding:10px; vertical-align:top;}
+#contacto table td{font:9px Tahoma, Arial, Helvetica, sans-serif; padding:10px; vertical-align:top; text-align:left;}
+#contacto table td input{border:1px solid #CCC; background:#F2F2F2; font:9px Arial, Helvetica, sans-serif; padding:0px 2px; height:16px;}
+#contacto table td select{font:9px Arial, Helvetica, sans-serif; height:18px;}
+#contacto table td textarea{border:1px solid #CCC; background:#F2F2F2; font:11px Arial, Helvetica, sans-serif; padding:2px;}
+#contacto button{text-align:center; background: url(../images/html/bot_enviar.jpg) no-repeat 0px 0px; width: 103px; height: 44px; padding: 0px; margin: 0px; color: #515151; font: bold 12px "Arial Narrow", Arial, Helvetica, sans-serif; border: none; cursor: pointer;}
+
+/*TITULO FORMULARIOS CON LINK*/
+.tit_formularios{font: bold 11px Arial, Helvetica, sans-serif; color: #036; margin: 0px 0px 2px 0px; padding: 5px; border: 1px solid #EBEBEB; background: #F7F7F7; width: 775px;}
+.tit_formularios a:link, .tit_formularios a:visited{background: url(../images/html/bullet_mas.gif) no-repeat 3px 1px; color: #036; text-decoration: none; display: block; padding: 0px 0px 0px 21px;}
+.tit_formularios a:hover, .tit_formularios a:active{background: url(../images/html/bullet_menos.gif) no-repeat 3px 1px; color: #036; text-decoration: none; display: block; padding: 0px 0px 0px 21px;}
+
+
+/*TABLA DE FORMULARIOS*/
+.tabla_formularios{border: 1px solid #EBEBEB; border-collapse: collapse; width: 780px; margin: 20px 0px; font-size: 14px; color: #036;}
+.tabla_formularios thead th{background: #F7F7F7; border-bottom: 1px solid #EBEBEB; font: bold 14px "Arial Narrow", Arial, Helvetica, sans-serif; color: #036; text-align: left; padding: 3px;}
+.tabla_formularios td{padding: 5px 8px 5px 7px; border: 1px solid #EBEBEB; border-collapse: collapse;}
+
+/*TABLA DE FORMULARIOS*/
+
+#logindata{margin:0px; padding:25px 10px 10px 10px;}
+#logindata table{border:none; width:100%;}
+#logindata table th{font:bold 11px Tahoma, Arial, Helvetica, sans-serif; text-align:left; padding:10px; vertical-align:top;}
+#logindata table td{font:11px Tahoma, Arial, Helvetica, sans-serif; padding:10px; vertical-align:top; text-align:left;}
+#logindata table td input{border:1px solid #CCC; background:#F2F2F2; font:11px Arial, Helvetica, sans-serif; padding:0px 2px; height:16px;}
+#logindata table td select{font:11px Arial, Helvetica, sans-serif; height:18px;}
+#logindata table td textarea{border:1px solid #CCC; background:#F2F2F2; font:11px Arial, Helvetica, sans-serif; padding:2px;}
+#logindata button{text-align:center; background: url(../images/html/bot_enviar.jpg) no-repeat 0px 0px; width: 103px; height: 44px; padding: 0px; margin: 0px; color: #515151; font: bold 12px "Arial Narrow", Arial, Helvetica, sans-serif; border: none; cursor: pointer;}
+
+#bot_volver{background:url(../images/botones/bot_cotizar.jpg) center center no-repeat; width:118px; height:35px; padding:0px 0px 10px 0px; border:none; cursor:pointer; color:#FFF; font:bold 11px Tahoma, Arial, Helvetica, sans-serif;}
+
+/*MENU BOTTOM*/
+#menu_bottom{list-style: none; margin: 0px auto 15px auto; padding: 0px 0px 0px 10px; height: 49px; width: 800px; font: 25px "Arial Narrow", Arial, Helvetica, sans-serif; color: #333;}
+#menu_bottom li{margin: 0px 30px 0px 0px; padding: 0px; float: left; width: 133px; border: 1px solid #CCC; height: 49px; text-align: center;}
+#menu_bottom li a:link, #menu_bottom li a:visited{color: #333; text-decoration: none; padding: 10px 0px 0px 0px; display: block; height: 39px;}
+#menu_bottom li a:hover, #menu_bottom li a:active{color: #CCC; text-decoration: none;}
+#menu_bottom #bot_footer_05{margin: 0px;}
+
+/*FOOTER*/
+#footer{width: 810px; margin: 0px auto; padding: 9px 0px 0px 0px; text-align: center; line-height:120%; color: #515151; border-top: 1px solid #EBEBEB; clear: both;}
+#footer p{margin: 0px auto; padding: 0px; width: 200px;}
+#footer img{margin: 0px; padding: 0px; border: none; float: right;}
+#footer a:link, #footer a:visited{color: #515151; text-decoration: none;}
+#footer a:hover, #footer a:active{color: #000; text-decoration: underline;}
+
+
+/*** FORM BLOCK ELEMENTS ***/
+
+/*TABLA DE FORMULARIOS*/
+
+.fondo_dimensionamiento{background: url(../images/html/fondo_form_top.gif) no-repeat 0px 0px #F7F7F7; font-size: 13px; color: #000; line-height: 120%; width: 680px; padding: 12px 50px 0px 15px; margin-top: 20px;}
+.fondo_dimensionamiento p{margin: 0px; padding: 0px 0px 10px 0px;}
+.bottom_dimensionamiento{background:  url(../images/html/fondo_form_bottom.gif) no-repeat 0px 0px; height: 15px; font: 1px Arial, Helvetica, sans-serif; width: 745px; margin: 0px 0px 12px 0px;}
+.fondo_dimensionamiento .txt_destacado{font-size: 16px; font-weight: bold;}
+.fondo_dimensionamiento table{border:none; width:100%;}
+.fondo_dimensionamiento table th{font:bold 9px Tahoma, Arial, Helvetica, sans-serif; text-align:left; padding:10px; vertical-align:top;}
+.fondo_dimensionamiento table td{font:9px Tahoma, Arial, Helvetica, sans-serif; padding:10px; vertical-align:middle; text-align:left;}
+.fondo_dimensionamiento table td input{border:1px solid #CCC; background:#F2F2F2; font:9px Arial, Helvetica, sans-serif; padding:0px 2px; height:16px; }
+.fondo_dimensionamiento table td select{font:9px Arial, Helvetica, sans-serif; height:18px;}
+.fondo_dimensionamiento table td textarea{border:1px solid #CCC; background:#F2F2F2; font:11px Arial, Helvetica, sans-serif; padding:2px;}
+.fondo_dimensionamiento button{text-align:center; background: url(../images/html/bot_enviar.jpg) no-repeat 0px 0px; width: 103px; height: 44px; padding: 0px; margin: 0px; color: #515151; font: bold 12px "Arial Narrow", Arial, Helvetica, sans-serif; border: none; cursor: pointer;}
+.fondo_dimensionamiento .label { font:bold 9px Tahoma, Arial, Helvetica, sans-serif; text-align:left; padding:10px; vertical-align:middle; white-space: nowrap;}
+.fondo_dimensionamiento .field { padding-bottom: 10px; white-space: nowrap;}
+.fondo_dimensionamiento .status { vertical-align: middle; width: 246px; white-space: nowrap;}
+.fondo_dimensionamiento label.error {background:url("../images/unchecked.gif") no-repeat 0px 0px; padding-left: 16px; padding-bottom: 2px; font-weight: bold; color: #EA5200;}
+.fondo_dimensionamiento label.checked {background:url("../images/checked.gif") no-repeat 0px 0px;}
+.fondo_dimensionamiento .success_msg {font-weight: bold; color: #0060BF; margin-left: 19px; }
+
+.fondo_forma{background: url(../images/html/fondo_form_top.gif) no-repeat 0px 0px #F7F7F7; font-size: 13px; color: #000; line-height: 120%; width: 500px; padding: 12px 50px 0px 15px; margin-top: 20px;}
+.fondo_forma p{margin: 0px; padding: 0px 0px 10px 0px;}
+.bottom_forma{background:  url(../images/html/fondo_form_bottom.gif) no-repeat 0px 0px; height: 15px; font: 1px Arial, Helvetica, sans-serif; width: 550px; margin: 0px 0px 12px 0px;}
+.fondo_forma .txt_destacado{font-size: 16px; font-weight: bold;}
+.fondo_forma table{border:none; width:100%;}
+.fondo_forma table th{font:bold 9px Tahoma, Arial, Helvetica, sans-serif; text-align:left; padding:10px; vertical-align:top;}
+.fondo_formatable td{font:9px Tahoma, Arial, Helvetica, sans-serif; padding:10px; vertical-align:top; text-align:left;}
+.fondo_forma table td input{border:1px solid #CCC; background:#F2F2F2; font:9px Arial, Helvetica, sans-serif; padding:0px 2px; height:16px;}
+.fondo_forma table td select{font:9px Arial, Helvetica, sans-serif; height:18px;}
+.fondo_forma table td textarea{border:1px solid #CCC; background:#F2F2F2; font:11px Arial, Helvetica, sans-serif; padding:2px;}
+.fondo_forma button{text-align:center; background: url(../images/html/bot_enviar.jpg) no-repeat 0px 0px; width: 103px; height: 44px; padding: 0px; margin: 0px; color: #515151; font: bold 12px "Arial Narrow", Arial, Helvetica, sans-serif; border: none; cursor: pointer;}
+
+
+/*TITULO FORMULARIOS CON LINK*/
+.tit_formularios_dimensionamiento{font: bold 11px Arial, Helvetica, sans-serif; color: #036; margin: 0px 0px 2px 0px; padding: 5px; border: 1px solid #EBEBEB; background: #F7F7F7; width: 725px;}
+.tit_formularios_dimensionamiento a:link, .tit_formularios_dimensionamiento a:visited{background: url(../images/html/bullet_mas.gif) no-repeat 3px 1px; color: #036; text-decoration: none; display: block; padding: 0px 0px 0px 21px;}
+.tit_formularios_dimensionamiento a:hover, .tit_formularios_dimensionamiento a:active{background: url(../images/html/bullet_menos.gif) no-repeat 3px 1px; color: #036; text-decoration: none; display: block; padding: 0px 0px 0px 21px;}
+
+
+#texto1 {background-image:url(../images/html/fondoazul2.jpg);padding:3px}
+#texto1 img{float: right;padding: 1px; margin: 1px;}
+#texto1 p{padding: 0px 0px 12px 25px; color: #666;margin-left:1px;margin-right:25px;}
+
+div.message{
+    background: transparent url(../images/msg_arrow.gif) no-repeat scroll left center;
+    padding-left: 7px;
+}
+
+div.error{
+    background-color:#F3E6E6;
+    border-color: #924949;
+    border-style: solid solid solid none;
+    border-width: 2px;
+    padding: 5px;
+}
